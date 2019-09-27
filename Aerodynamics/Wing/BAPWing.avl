@@ -1,0 +1,39 @@
+ACMainWing
+0.0				| Mach
+0 0 0.0			| iYsym  iZsym  Zsym
+3744.0 26.2593074395 144.0			| Sref   Cref   Bref
+0.0 0.0 0.0			| Xref   Yref   Zref
+0.0				| CDp  (optional)
+#==============================================================
+#
+SURFACE
+ACMainWing
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+1
+#-----------------------
+SECTION
+-6.89263397084 0.0 0.0   27.5705358834  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\AircraftDesign\trunk\Airfoils\fx76120\fx76120.dat"
+#-----------------------
+SECTION
+-6.89263397084 46.2857142857 0.0   27.5705358834  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\AircraftDesign\trunk\Airfoils\fx76120\fx76120.dat"
+CONTROL
+Aileron  1.0  0.7  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+-6.89263397084 72.0 0.530778307139   18.7755349366  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\AircraftDesign\trunk\Airfoils\fx76120\fx76120.dat"
+CONTROL
+Aileron  1.0  0.7  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
